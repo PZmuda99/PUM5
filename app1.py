@@ -25,7 +25,7 @@ def main():
 	st.image("https://iot.eetimes.com/wp-content/uploads/2018/01/AI_story4.jpg")
 
 	with overview:
-		st.title("???")
+		st.title("Titanic")
 
 	with left:
 		sex_radio = st.radio( "Płeć", list(sex_d.keys()), format_func=lambda x : sex_d[x] )
